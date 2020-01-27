@@ -17,7 +17,7 @@
     "jsx",
     "react"
   ],
-  "author": "martin.weiser@bsc-ideas.com",
+  "author": "martin.weiser@gmail.com",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
