@@ -16,7 +16,6 @@ module.exports = {
     'generator-star-spacing': ['error', 'after'],
     'max-len': ['error', { 'code': 120 }],
     'comma-dangle': ['error', 'always-multiline'],
-    'space-before-function-paren': ['error', 'never'],
     'operator-linebreak': ['error', 'before'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
