@@ -26,7 +26,7 @@ module.exports = {
     '@typescript-eslint/interface-name-prefix': 'off',
     // already used via esling plugin, this ignores JSX usage...
     // https://github.com/typescript-eslint/typescript-eslint/issues/868
-    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
     'react/display-name': 'off',
     'react/prop-types': 'off',
     'import/named': 'warn',

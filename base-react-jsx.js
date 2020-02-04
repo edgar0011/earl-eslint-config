@@ -80,7 +80,7 @@ module.exports = {
       'error',
       'never',
     ],
-    'react/jsx-uses-vars': 2,
+    'react/jsx-uses-vars': 'error',
     'react/jsx-no-bind': [
       'error',
       {
