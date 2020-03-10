@@ -27,8 +27,6 @@ module.exports = {
     // already used via esling plugin, this ignores JSX usage...
     // https://github.com/typescript-eslint/typescript-eslint/issues/868
     '@typescript-eslint/no-unused-vars': 'error',
-    'react/display-name': 'off',
-    'react/prop-types': 'off',
     'import/named': 'warn',
     "import/extensions": [
       "error",
@@ -53,9 +51,6 @@ module.exports = {
     'fetch': true,
   },
   'settings': {
-    'react': {
-      'version': '16.7',
-    },
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"],
