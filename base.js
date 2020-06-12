@@ -58,5 +58,10 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'always',
+      'named': 'always',
+      'asyncArrow': 'always'
+    }],
   },
 }
