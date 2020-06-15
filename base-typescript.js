@@ -27,16 +27,17 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/issues/868
     '@typescript-eslint/no-unused-vars': 'error',
     'import/named': 'warn',
-    "import/extensions": [
-      "error",
-      "ignorePackages",
+    'import/extensions': [
+      'error',
+      'ignorePackages',
       {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never",
+        'js': 'never',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never',
       },
     ],
+    'space-before-function-paren': 0,
   },
   'globals': {
     'describe': true,
@@ -50,9 +51,9 @@ module.exports = {
     'fetch': true,
   },
   'settings': {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"],
+    'import/resolver': {
+      'node': {
+        'extensions': ['.js', '.jsx', '.ts', '.tsx', '.json'],
       },
     },
   },
