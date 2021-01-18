@@ -9,6 +9,7 @@ module.exports = {
     'promise',
     'eslint-plugin-import-order',
     'eslint-plugin-import-order-alphabetical',
+    'import',
   ],
   env: {
     browser: true,
@@ -23,6 +24,7 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'implicit-arrow-linebreak': ['error', 'beside'],
+    "import/no-cycle": "error",
     'import-order-alphabetical/order': 'off',
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 'off',

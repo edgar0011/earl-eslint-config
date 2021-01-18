@@ -3,7 +3,7 @@ module.exports = {
   'extends': [
     'plugin:@typescript-eslint/recommended',
   ],
-  'plugins': ['@typescript-eslint'],
+  'plugins': ['@typescript-eslint', 'import'],
   'parserOptions': {
     'sourceType': 'module',
   },
@@ -26,6 +26,7 @@ module.exports = {
     // already used via esling plugin, this ignores JSX usage...
     // https://github.com/typescript-eslint/typescript-eslint/issues/868
     '@typescript-eslint/no-unused-vars': 'error',
+    "import/no-cycle": "error",
     'import/named': 'warn',
     'import/extensions': [
       'error',
