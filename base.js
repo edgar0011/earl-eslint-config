@@ -11,6 +11,9 @@ module.exports = {
     'eslint-plugin-import-order-alphabetical',
     'import',
   ],
+  parserOptions: {
+    'ecmaVersion': 2020
+  },
   env: {
     browser: true,
     jest: true,
