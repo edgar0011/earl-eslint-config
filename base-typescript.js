@@ -18,7 +18,10 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
-    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/indent': [
+      'error',
+      2
+    ],
     '@typescript-eslint/member-delimiter-style': ['error', { 'multiline': { 'delimiter': 'none' } }],
     '@typescript-eslint/prefer-interface': 0,
     '@typescript-eslint/no-explicit-any': 'warn',
