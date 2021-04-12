@@ -51,11 +51,7 @@ module.exports = {
       'error',
       'prefer-single',
     ],
-    'max-len': [
-      'error',
-      120,
-      2,
-    ],
+    'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
     'object-curly-spacing': [
       'error',
       'always',

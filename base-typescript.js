@@ -13,7 +13,7 @@ module.exports = {
   },
   'rules': {
     'generator-star-spacing': ['error', 'after'],
-    'max-len': ['error', { 'code': 120 }],
+    'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
     'comma-dangle': ['error', 'always-multiline'],
     'operator-linebreak': ['error', 'before'],
     '@typescript-eslint/explicit-function-return-type': 'off',
