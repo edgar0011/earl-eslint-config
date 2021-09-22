@@ -5,7 +5,7 @@ module.exports = {
     'eslint:recommended',
   ],
   plugins: [
-    'babel',
+    '@babel',
     'promise',
     'import',
   ],

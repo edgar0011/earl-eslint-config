@@ -6,7 +6,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
   ],
   plugins: [
-    'babel',
+    '@babel',
     'react',
     'react-hooks',
     'promise',
