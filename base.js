@@ -7,8 +7,6 @@ module.exports = {
   plugins: [
     'babel',
     'promise',
-    'eslint-plugin-import-order',
-    'eslint-plugin-import-order-alphabetical',
     'import',
   ],
   parserOptions: {

@@ -10,8 +10,6 @@ module.exports = {
     'react',
     'react-hooks',
     'promise',
-    'eslint-plugin-import-order',
-    'eslint-plugin-import-order-alphabetical',
     'import'
   ],
   env: {
