@@ -4,13 +4,15 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:jsx-a11y/recommended',
+    // 'plugin:jsx-a11y/strict',    
   ],
   plugins: [
     '@babel',
     'react',
     'react-hooks',
     'promise',
-    'import'
+    'import',
+    'jsx-a11y'
   ],
   env: {
     browser: true,
