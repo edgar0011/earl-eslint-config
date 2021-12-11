@@ -39,6 +39,7 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
     'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
     'object-curly-spacing': [

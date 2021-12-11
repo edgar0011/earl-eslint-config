@@ -46,6 +46,7 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
     'jsx-quotes': [
       'error',
