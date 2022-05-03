@@ -30,7 +30,7 @@ module.exports = {
     // already used via esling plugin, this ignores JSX usage...
     // https://github.com/typescript-eslint/typescript-eslint/issues/868
     '@typescript-eslint/no-unused-vars': 'error',
-    "import/no-cycle": "error",
+    'import/no-cycle': 'error',
     'import/named': 'warn',
     'import/extensions': [
       'error',
@@ -43,9 +43,10 @@ module.exports = {
       },
     ],
     'space-before-function-paren': 0,
-    'padding-line-between-statements': [
+    'eslint padding-line-between-statements': [
       'error',
-      { blankLine: 'always', prev: '*', next: 'return' }
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*'},
+      { blankLine: 'any',    prev: ['const', 'let', 'var'], next: ['const', 'let', 'var']}
     ]
   },
   'globals': {
