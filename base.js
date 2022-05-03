@@ -25,7 +25,7 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'implicit-arrow-linebreak': ['error', 'beside'],
-    "import/no-cycle": "error",
+    'import/no-cycle': 'error',
     'import-order-alphabetical/order': 'off',
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 'off',
@@ -59,5 +59,9 @@ module.exports = {
       },
     ],
     'space-before-function-paren': 0,
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: '*', next: 'return' }
+    ]
   },
 }

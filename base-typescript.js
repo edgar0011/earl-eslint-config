@@ -43,6 +43,10 @@ module.exports = {
       },
     ],
     'space-before-function-paren': 0,
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: '*', next: 'return' }
+    ]
   },
   'globals': {
     'describe': true,
