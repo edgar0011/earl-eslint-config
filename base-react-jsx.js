@@ -32,7 +32,7 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'always'],
     'implicit-arrow-linebreak': ['error', 'beside'],
-    "import/no-cycle": "error",
+    'import/no-cycle': 'error',
     'import-order-alphabetical/order': 'off',
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 'off',
@@ -46,6 +46,8 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
     'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
     'jsx-quotes': [
