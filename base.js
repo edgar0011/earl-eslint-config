@@ -39,6 +39,7 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'indent': ["error", 2],  
     'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
     'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
