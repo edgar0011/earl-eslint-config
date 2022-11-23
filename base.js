@@ -10,7 +10,7 @@ module.exports = {
     'import',
   ],
   parserOptions: {
-    'ecmaVersion': 2020
+    ecmaVersion: 2020,
   },
   env: {
     browser: true,
@@ -23,6 +23,7 @@ module.exports = {
     it: true,
   },
   rules: {
+    'no-undef': 'error',
     'arrow-parens': ['error', 'always'],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'import/no-cycle': 'error',
@@ -39,10 +40,10 @@ module.exports = {
       'error',
       'always-multiline',
     ],
-    'indent': ['error', 2],
+    indent: ['error', 2],
     'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
-    'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
+    'max-len': ['error', { code: 120, tabWidth: 2, ignoreUrls: true }],
     'object-curly-spacing': [
       'error',
       'always',
@@ -62,8 +63,8 @@ module.exports = {
     'space-before-function-paren': 0,
     'padding-line-between-statements': [
       'error',
-      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*'},
-      { blankLine: 'any',    prev: ['const', 'let', 'var'], next: ['const', 'let', 'var']}
-    ]
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+    ],
   },
 }

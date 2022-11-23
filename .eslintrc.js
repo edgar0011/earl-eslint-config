@@ -1,10 +1,11 @@
 module.exports = {
-  extends: './base.js',
-  extends: './base-react-jsx.js',
-  extends: './base-typescript.js',
-  extends: './perf-react-jsx.js',
-
+  extends: [
+    './base.js',
+    './base-react-jsx.js',
+    './base-typescript.js',
+    './perf-react-jsx.js',
+  ],
   rules: {
-    "quotes": "off",
-  }
-};
+    quotes: "off",
+  },
+}

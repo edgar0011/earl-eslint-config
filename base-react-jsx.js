@@ -4,7 +4,7 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:jsx-a11y/recommended',
-    // 'plugin:jsx-a11y/strict',    
+    // 'plugin:jsx-a11y/strict',
   ],
   plugins: [
     '@babel',
@@ -12,7 +12,7 @@ module.exports = {
     'react-hooks',
     'promise',
     'import',
-    'jsx-a11y'
+    'jsx-a11y',
   ],
   env: {
     browser: true,
@@ -54,7 +54,7 @@ module.exports = {
       'error',
       'prefer-single',
     ],
-    'max-len': ['error', { 'code': 120, tabWidth: 2, ignoreUrls: true }],
+    'max-len': ['error', { code: 120, tabWidth: 2, ignoreUrls: true }],
     'object-curly-spacing': [
       'error',
       'always',

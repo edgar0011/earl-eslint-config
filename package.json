@@ -3,7 +3,8 @@
   "version": "1.5.22",
   "description": "eslint base configuration for EARL",
   "scripts": {
-    "lint": "eslint ./",
+    "lint": "eslint ./ src",
+    "lint:fix": "yarn lint --fix",
     "publish:minor": "npm version patch && npm publish && git push origin master:master"
   },
   "repository": {
@@ -27,8 +28,10 @@
     "eslint-import-resolver-babel-module": "^5.3.1"
   },
   "dependencies": {
+    "@babel/eslint-plugin": "^7.19.1",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^17.0.0",
