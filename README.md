@@ -1,2 +1,2 @@
 # earl-eslint-config
-Eslint congirutations based on AirBnB for JS, JSX, TS, React
+Eslint configurations based on AirBnB, standard for JS, JSX, TS, TSX, React
