@@ -21,19 +21,16 @@
   ],
   "author": "martin.weiser@gmail.com",
   "license": "MIT",
-  "peerDependencies": {
-    "@babel/eslint-parser": "^7.15.0",
-    "@babel/eslint-plugin": "^7.14.5",
-    "eslint": "^8.20.0",
-    "eslint-import-resolver-babel-module": "^5.3.1"
-  },
   "dependencies": {
+    "@babel/eslint-parser": "^7.15.0",
     "@babel/eslint-plugin": "^7.19.1",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-babel-module": "^5.3.1",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-node": "^11.1.0",
