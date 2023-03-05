@@ -4,7 +4,7 @@
   "description": "eslint base configuration for EARL",
   "scripts": {
     "lint": "eslint ./ src",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "yarn lint -- --fix",
     "publish:minor": "npm version patch && npm publish && git push origin master:master"
   },
   "repository": {
@@ -45,6 +45,7 @@
     "prettier-eslint-cli": "^7.1.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
     "typescript": "^4.4.3"
   }
 }
