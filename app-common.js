@@ -23,7 +23,7 @@ module.exports = {
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
     "no-useless-constructor": "off",
-    semi: ["error", "always"],
+    semi: ["error", "never"],
     "max-len": ["error", { code: 120, tabWidth: 2, ignoreUrls: true, ignoreStrings: false, ignorePattern: "d=.*" }],
 
     // https://github.com/typescript-eslint/typescript-eslint/issues/455
