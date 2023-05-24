@@ -93,7 +93,14 @@ module.exports = {
         allowBind: false,
       },
     ],
-    'react/jsx-wrap-multilines': ['error', { prop: 'parens-new-line' }],
+    "react/jsx-wrap-multilines": ["error", {
+      return: "parens-new-line",
+      declaration: "parens-new-line",
+      arrow: "parens-new-line",
+      condition: "parens-new-line",
+      logical: "parens-new-line",
+      prop: "parens-new-line",
+    }],
     'object-curly-newline': 'off',
     'import/no-extraneous-dependencies': [
       'error',
