@@ -3,7 +3,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
   ],
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint', 'import', 'eslint-plugin-tsdoc'],
   parserOptions: {
     sourceType: 'module',
   },
