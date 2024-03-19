@@ -18,8 +18,8 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'function-paren-newline': ['error', 'consistent'],
     'operator-linebreak': ['error', 'before'],
-    '@typescript-eslint/explicit-function-return-type': 'on',
-    '@typescript-eslint/explicit-member-accessibility': 'on',
+    '@typescript-eslint/explicit-function-return-type': 'error',
+    '@typescript-eslint/explicit-member-accessibility': 'error',
     '@typescript-eslint/indent': [
       'error',
       2,
