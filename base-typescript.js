@@ -19,7 +19,7 @@ module.exports = {
     'function-paren-newline': ['error', 'consistent'],
     'operator-linebreak': ['error', 'before'],
     '@typescript-eslint/explicit-function-return-type': 'error',
-    '@typescript-eslint/explicit-member-accessibility': 'error',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/indent': [
       'error',
       2,
