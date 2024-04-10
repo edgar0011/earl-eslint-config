@@ -44,6 +44,7 @@ module.exports = {
     'function-paren-newline': ['error', 'consistent'],
     quotes: ['error', 'single'],
     'max-len': ['error', { code: 120, tabWidth: 2, ignoreUrls: true }],
+    curly: ['error', 'all'],
     'object-curly-spacing': [
       'error',
       'always',
