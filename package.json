@@ -53,9 +53,6 @@
     "prettier-eslint": "^16.3.0",
     "prettier-eslint-cli": "^8.0.1"
   },
-  "peerDependencies": {
-    "@babel/eslint-plugin": "^7.23.5"
-  },
   "devDependencies": {
     "typescript": "^5.4.3"
   }
