@@ -49,6 +49,7 @@ module.exports = {
       { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
       { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
     ],
+    '@typescript-eslint/require-await': 'off',
   },
   globals: {
     describe: true,
