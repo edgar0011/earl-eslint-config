@@ -24,6 +24,18 @@ module.exports = {
   },
   rules: {
     'no-undef': 'error',
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'react',
+            importNames: ['default'],
+            message: 'Do not use default imports from React. Use named imports instead.',
+          },
+        ],
+      },
+    ],
     'arrow-parens': ['error', 'always'],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'import/no-cycle': 'error',
@@ -68,6 +80,6 @@ module.exports = {
       { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
     ],
 
-    "no-magic-numbers": "error",
+    'no-magic-numbers': 'error',
   },
 }
