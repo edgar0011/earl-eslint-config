@@ -1,6 +1,6 @@
 {
   "name": "@e1011/eslint-config",
-  "version": "1.5.78",
+  "version": "1.5.79",
   "description": "eslint base configuration for EARL",
   "scripts": {
     "lint": "eslint ./ src",
